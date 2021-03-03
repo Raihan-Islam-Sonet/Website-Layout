@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dddddd;
+    font-family: sans-serif;
+    color: green;
+}
+.container{
+    max-width: 1140px;
+    background-color: #ffffff;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+.clear{
+    clear: both;
+}
+h1{
+    font-size: 30px;
+    margin: 0;
+}
+header{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    border: 5px solid #555555;
+}
+nav{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px 0 50px 0;
+    border: 5px solid #555555;
+}
+.section-1{
+    float: left;
+    width: 25%;
+    background-color: #dddddd;
+    margin-top: 10px;
+    margin-right:10px ;
+    padding: 100px 0 100px 0;
+    border: 5px solid #555555;
+}
+.section-2{
+    float: left;
+    width: 48.2%;
+    background-color: #dddddd;
+    margin-top: 10px;
+    margin-right:10px;
+    padding: 100px 0 100px 0;
+    border: 5px solid #555555;
+}
+.section-3{
+    float: left;
+    width: 25%;
+    background-color: #dddddd;
+    margin-top: 10px;
+    padding: 100px 0 100px 0;
+    border: 5px solid #555555;
+}
+.section-2-1{
+    float: left;
+    width: 24%;
+    background-color: #dddddd;
+    margin-top: 10px;
+    margin-right:11px;
+    padding: 100px 0 100px 0;
+    border: 5px solid #555555;
+}
+.content h1{
+    text-align: center;
+}
+
+.footer-1{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    margin-top: 10px;
+    margin-right:10px;
+    padding: 100px 0 100px 0;
+    border: 5px solid #555555;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    background-color: #dddddd;
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px 0 50px 0;
+    border: 5px solid #555555;
+}
+
+/*=========Responsive===========*/
+
+@media only screen and (max-width: 1366px){
+    h1{
+        font-size: 20px;
+    }
+    .section-1{
+        width: 25%;   
+    }
+    .section-2{
+        width: 48%;
+    }
+    .section-3{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    h1{
+        font-size: 20px;
+    }
+    .section-1{
+        width: 25%;   
+    }
+    .section-2{
+        width: 47%;
+    }
+    .section-3{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    h1{
+        font-size: 20px;
+    }
+    .section-1{
+        width: 25%;   
+    }
+    .section-2{
+        width: 50%;
+    }
+    .section-3{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 20px;
+    }
+    .section-1{
+        width: 24%;   
+    }
+    .section-2{
+        width: 46.3%;
+    }
+    .section-3{
+        width: 24%;
+    }
+}
